@@ -1,0 +1,13 @@
+/* VARIABLES */
+:root {
+ --grey: hsl(210, 36%, 96%);
+ --primary-font: "Roboto", sans-serif;
+ --secondary-font: "Open Sans", sans-serif;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
