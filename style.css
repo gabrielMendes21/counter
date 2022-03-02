@@ -37,13 +37,14 @@ main {
 }
 
 .buttons button {
-  font: normal normal 0.7rem / normal Arial;
+  font: normal normal 0.66rem / normal Arial;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   margin: 0.5rem;
   border-radius: 0.5rem;
   border: 2px solid black;
+  padding: 0.5rem 0.7rem;
 }
 
 footer {
@@ -66,4 +67,28 @@ footer img {
   width: 30px;
   height: 30px;
   margin-inline: 10px;
+}
+
+/* MEDIA */
+
+@media (max-width: 375px) {
+  .buttons button {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 400px) {
+  .counter h1 {
+    font-size: 4rem;
+  }
+
+  .counter span {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .buttons button {
+    font-size: 0.875rem;
+  }
 }
