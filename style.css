@@ -61,6 +61,12 @@ footer p {
 
 footer a {
   display: inline-block;
+  text-decoration: none;
+}
+
+footer .credits {
+  display: block;
+  margin-top: 1rem;
 }
 
 footer img {
