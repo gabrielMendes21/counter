@@ -1,8 +1,7 @@
 /* VARIABLES */
 :root {
- --grey: hsl(210, 36%, 96%);
- --primary-font: "Roboto", sans-serif;
- --secondary-font: "Open Sans", sans-serif;
+ --blue: hsl(206, 81%, 79%);
+ --primary-font: 'Roboto Mono', monospace;
 }
 
 /* CSS RESET */
@@ -14,7 +13,7 @@
 
 body {
   height: 100vh;
-  background-color: var(--grey);
+  background: white;
   
   display: grid;
   place-items: center;
@@ -32,15 +31,13 @@ main {
 .counter span {
   display: inline-block;
 
-  font: normal 700 4rem / 1 var(--secondary-font);
+  font: normal 700 4rem / 1 var(--primary-font);
   margin: 2.3rem auto;
 }
 
 .buttons button {
   font: normal normal 0.66rem / normal Arial;
-  text-transform: uppercase;
   letter-spacing: 0.25rem;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   margin: 0.5rem;
   border-radius: 0.5rem;
   border: 2px solid black;
@@ -56,7 +53,7 @@ footer {
 }
 
 footer p {
-  font: normal 700 1.2rem / normal var(--secondary-font);
+  font: normal 700 1.2rem / normal var(--primary-font);
 }
 
 footer a {
