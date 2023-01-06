@@ -1,7 +1,7 @@
 # Counter
 I made a simple counter
 
-> Status: concluded ✔️
+> Status: finished ✔️
 
 <br>
 It's a simple counter. Here you can increase, decrease and reset the conunter 🙂
